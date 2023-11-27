@@ -28,10 +28,9 @@
   border-radius: 5px;
   top: 100%;
   left: 0;
-  z-index: 10; /* Ensure the dropdown is above other content */
+  z-index: 10;
 }
 
-/* This class will be applied when the dropdown is open */
 .dropdown-content.show {
   display: block;
 }

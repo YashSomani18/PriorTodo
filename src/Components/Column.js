@@ -3,7 +3,7 @@ import Card from "./Card";
 import "./Styling/Column.css";
 
 const Column = ({ status, tickets }) => {
-  console.log(status, tickets);
+  // console.log(status, tickets);
 
   const headerTitle =
     status.charAt(0).toUpperCase() + status.slice(1);
