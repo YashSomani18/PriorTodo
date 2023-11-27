@@ -1,0 +1,6 @@
+.kanban-board {
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

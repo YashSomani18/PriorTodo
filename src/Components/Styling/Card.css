@@ -1,0 +1,92 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.card-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.card-avatar.placeholder {
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1px;
+}
+
+.card-content {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
+.card-priority {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card-id {
+  font-size: 12px;
+  color: #888;
+}
+
+.card-title {
+  font-size: 13px;
+
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-status {
+  font-size: 10px;
+  color: #888;
+}
+
+.card-tag {
+  background-color: #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.status-icon {
+  font-size: 20px; /* Increase the size as needed */
+  color: #888; 
+  margin-right: -3px;
+}
+
+.card-id {
+  font-size: 12px;
+  color: #888;
+}
+

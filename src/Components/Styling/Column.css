@@ -1,0 +1,28 @@
+.column {
+  flex: 1;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.column-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-actions {
+ margin-right: 1rem;
+  cursor: pointer; 
+}
